@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venz Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Venz Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Creative Thumbnails & Graphics Design</h2>
+        <p>Designing eye-catching thumbnails to boost engagement.</p>
+        <a href="#portfolio" class="btn">View My Work</a>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="gallery">
+            <!-- Thumbnails (Replace src with your image URLs) -->
+            <img src="https://i.ibb.co/JWjb1Zhk/New-Project-136-77-D6712.png" class="thumbnail" onclick="openModal(this)">
+            <img src="https://i.ibb.co/8gTTGMnJ/New-Project-62-B62-F1-AF.png" class="thumbnail" onclick="openModal(this)">
+            <img src="https://i.ibb.co/ksshJLwG/New-Project-58-105967-B.png" class="thumbnail" onclick="openModal(this)">
+            <img src="https://i.ibb.co/6c5rRxqt/New-Project-52-C5-E84-FE.png" class="thumbnail" onclick="openModal(this)">
+            <img src="https://i.ibb.co/HpqdrDhx/New-Project-46-5-A0-ABDD.png" class="thumbnail" onclick="openModal(this)">
+            <img src="https://i.ibb.co/5WFQbRYr/New-Project-44-Copy-938-D117.png" class="thumbnail" onclick="openModal(this)">
+            <img src="https://i.ibb.co/3Qq3xWY/New-Project-48-EA9-E14-D.png" class="thumbnail" onclick="openModal(this)">
+            <img src="https://i.ibb.co/5XKsCFt4/New-Project-40-E5-AC6-D6.png" class="thumbnail" onclick="openModal(this)">
+            <img src="" class="thumbnail" onclick="openModal(this)">
+        </div>
+    </section>
+
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImg">
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey, I'm <strong>Venz</strong>, a teenage boy with a dream of becoming a thumbnail designer and graphics artist. I also have a passion for video editing.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's work together! Reach me via:</p>
+        <ul>
+            <li>📷 Instagram: <a href="https://www.instagram.com/whos.zayn__" target="_blank">@whos.zayn__</a></li>
+            <li>💬 Discord: <strong>zayneeeee_</strong></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Venz | Designed with passion</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
